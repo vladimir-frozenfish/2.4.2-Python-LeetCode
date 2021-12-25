@@ -1,4 +1,6 @@
-x = [1, 2, 3]
-y = [5, 6, 10]
-x += y[3:]
-print(x)
+
+flag = True
+print(flag)
+flag *= -1
+print(flag)
+
