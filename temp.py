@@ -1,6 +1,5 @@
-
-flag = True
-print(flag)
-flag *= -1
-print(flag)
-
+numbers = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'}
+if 'v' in {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'}:
+    print('Yes')
+else:
+    print('No')
