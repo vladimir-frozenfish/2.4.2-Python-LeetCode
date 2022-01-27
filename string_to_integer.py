@@ -1,10 +1,5 @@
 def myAtoi(s: str) -> int:
     """функция возвращает число из строки"""
-    '''
-    if not s:
-        return 0
-    '''
-
     number = []
     for i in range(len(s)):
         if s[i].isdigit():
