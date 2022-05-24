@@ -1,18 +1,17 @@
-def prefix2strings(s1, s2):
-    prefix = ''
-    i = 0
-    while i < len(s1) and i < len(s2):
-        if s1[i] == s2[i]:
-            prefix += s1[i]
-            i += 1
-        else:
-            break
-
-    return prefix
+set_tuple = {
+    (2, 1, 3),
+    (3, 2, 1),
+    (4, 3, 2),
+    (4, 4, 1),
+    (2, 5, 1),
+    (2, 6, 0),
+}
 
 
+id = 4
+for i in set_tuple:
+    if i[1] == id:
+        set_tuple.remove(i)
+        break
 
-s1 = 'abcdf'
-s2 = 'abf'
-
-print(prefix2strings(s1, s2))
+print(set_tuple)

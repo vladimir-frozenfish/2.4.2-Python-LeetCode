@@ -4,7 +4,8 @@ def isPalindrome(x: int) -> bool:
     """
     x = str(x)
     middle = len(x)//2
-    return x[0:middle] == x[-1:-middle-1:-1]
+    # return x[0:middle] == x[-1:-middle-1:-1]
+    return x[0:] == x[::-1]
 
 print(isPalindrome(101) == True)
 print(isPalindrome(-202) == False)
